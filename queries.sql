@@ -12,4 +12,4 @@ WHERE users.id = 200;
 SELECT username, COUNT(*)
 FROM users
 JOIN likes ON likes.user_id = users.id
-GROUP BY users.id;;
+GROUP BY users.id;
