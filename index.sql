@@ -2,7 +2,7 @@
 Never create indexes on primary key or column with Unique constaint
 Because PostgreSQL create then automatically
 */
--- CREATE INDEX ON users (username);
+CREATE INDEX ON users (username);
 
 -- DROP INDEX users_username_idx;
 
